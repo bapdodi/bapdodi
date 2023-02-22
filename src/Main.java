@@ -3,45 +3,46 @@ import java.io.BufferedWriter;
 import java.io.File;
 import java.io.FileReader;
 import java.io.FileWriter;
+import java.io.IOException;
 import java.io.InputStreamReader;
 import java.io.Writer;
 import java.util.Scanner;
 import java.util.StringTokenizer;
-
+import java.util.Scanner;
+import java.util.Stack;
+import java.util.Arrays;
+import java.util.Collections;
+import java.util.ArrayList;
+import java.util.Comparator;
+import java.util.Deque;
+import java.util.LinkedList;
+import java.util.Queue;
 public class Main {
-    public static void main(String[] args) throws Exception {
-       
-        
+    static StringBuilder sb;
+    static int N;
+    static Deque<String> q;
+    static double[] array;
+    static Deque<Character> dq;
+    public static void main(String[] args) throws IOException{
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
- 
-		int N = Integer.parseInt(br.readLine());
- 
-		StringTokenizer st;
-		StringBuilder sb = new StringBuilder();
- 
-		for (int i = 0; i < N; i++) {
-			st = new StringTokenizer(br.readLine(), " ");
-			sb.append(Integer.parseInt(st.nextToken()) + Integer.parseInt(st.nextToken()));
-			sb.append('\n');
-		}
- 
-		System.out.println(sb);
-        
-        
-        //h
-        
-        // String[] A = new String[3];
-        // int test1 = scanner.nextInt();
-        // String test2 = scanner.next();
-        
-        // String b1 = test2.substring(0,1);
-        // int c1 = (Integer.parseInt(test2.substring(0,1)));
- 
-        
-        // System.out.println();
-        
-        // scanner.close();
+        sb = new StringBuilder();
+        String str = br.readLine();
+        int[] array = new int[str.length()];
+        char[] ch = new char[str.length()];
+        ch = str.toCharArray();
+        for(int i=0; i<str.length(); i++){
+            array[i] = (int)ch[i]; 
+        }
+        Arrays.sort(array);
+        for(int i=0; i<str.length()-1;i++){
+            if(array[i]==array[i+1]){
 
-
+            }
+            else{
+                
+            }
+        }
     }
+    
+    
 }
