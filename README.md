@@ -1,6 +1,6 @@
 # 김정빈 · Backend Developer
 
-실제 문제(가족의 가게·일)에서 출발한 서비스를 설계부터 K8s 배포·운영까지 직접 수행해 온 Spring Boot 백엔드 개발자입니다.
+서비스를 설계부터 K8s 배포·운영까지 직접 수행해 온 Spring Boot 백엔드 개발자입니다.
 명지대학교 융합소프트웨어학과 응용소프트웨어전공 (2027. 02 졸업예정).
 
 **주력**: Java · Spring Boot · PostgreSQL · Redis · Kubernetes / Docker · WebSocket/STOMP
